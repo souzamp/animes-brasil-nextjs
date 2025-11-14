@@ -13,7 +13,7 @@ export default function Header() {
     <>
       <HeaderContainer>
         <HeaderContent>
-          <Logo href="/">ADS Animes</Logo>
+          <Logo href="/">Animes Silva</Logo>
 
           <Nav>
             <NavLink href="/">Home</NavLink>
@@ -36,7 +36,7 @@ export default function Header() {
 
 // 💅 Estilos do Header
 const HeaderContainer = styled.header`
-  background-color: #1e293b;
+  background-color: #001941ff;
   color: white;
   padding: 1rem 2rem;
   position: fixed;
@@ -44,7 +44,7 @@ const HeaderContainer = styled.header`
   left: 0;
   width: 100%;
   z-index: 100;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(163, 0, 0, 0.2);
   box-sizing: border-box;
 `;
 
@@ -61,7 +61,7 @@ const HeaderContent = styled.div`
 const Logo = styled(Link)`
   font-size: 1.5rem;
   font-weight: 700;
-  color: #10b981;
+  color: #cbcbcbff;
   text-decoration: none;
 
   &:hover {
